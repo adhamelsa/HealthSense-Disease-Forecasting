@@ -8,3 +8,5 @@ tensorflow
 keras
 streamlit
 joblib
+stable-baselines3
+gym
