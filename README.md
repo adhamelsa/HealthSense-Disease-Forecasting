@@ -7,7 +7,7 @@
 ## 📌 Features
 - 🧪 Disease prediction using ML & DL
 - 📊 Interactive visualizations for medical data
-- 🌐 Web-based interface using Flask or Streamlit
+- 🌐 Web-based interface using Streamlit
 - 🧠 Optional reinforcement learning exploration
 - 📁 Modular and scalable project structure
 
