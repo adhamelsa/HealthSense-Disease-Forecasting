@@ -6,6 +6,5 @@ seaborn
 plotly
 tensorflow
 keras
-flask
 streamlit
 joblib
