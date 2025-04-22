@@ -100,8 +100,7 @@ HealthSense-Disease-Forecasting/
 
    -[Hypertension Risk Model](https://www.kaggle.com/datasets/khan1803115/hypertension-risk-model-main)
 
-Breast Cancer Wisconsin (Diagnostic)
-https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data 
+   -[Breast Cancer Wisconsin (Diagnostic)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) 
 
 5. **Process data & train models**
    ```bash
