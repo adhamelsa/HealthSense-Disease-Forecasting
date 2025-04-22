@@ -89,6 +89,20 @@ HealthSense-Disease-Forecasting/
    - hypertension.csv
    - breast_cancer.csv
 
+   ### Dataset Links
+   -[Diabetes (Pima Indians Diabetes Database)](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database )
+
+   -[Heart Disease (UCI Heart Disease Data)](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data)
+
+   -[Lung Cancer](https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer )
+
+   -[Chronic Kidney Disease](https://www.kaggle.com/datasets/mansoordaku/ckdisease)
+
+   -[Hypertension Risk Model](https://www.kaggle.com/datasets/khan1803115/hypertension-risk-model-main)
+
+Breast Cancer Wisconsin (Diagnostic)
+https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data 
+
 5. **Process data & train models**
    ```bash
    python src/preprocess.py
