@@ -6,22 +6,25 @@ import matplotlib.pyplot as plt
 st.set_page_config("HealthSense", layout="centered")
 st.title("🩺 HealthSense Disease Forecasting")
 
-# اختيار المرض
-disease = st.selectbox("اختر المرض", ["-", "السكري", "مرض القلب", "سرطان الرئة"])
+# Select disease
+disease = st.selectbox("Select a disease", ["-", "Diabetes", "Heart Disease", "Lung Cancer"])
+
 if disease != "-":
     params = {}
-    if disease == "السكري":
-        for col in ["Pregnancies","Glucose","BloodPressure","BMI","Age"]:
-            params[col] = st.number_input(col)
+
+    if disease == "Diabetes":
+        for col in ["Pregnancies", "Glucose", "BloodPressure", "BMI", "Age"]:
+            params[col] = st.number_input(f"Enter {col}", min_value=0.0)
         model = joblib.load("models/rf_diabetes.pkl")
         data = pd.DataFrame([params])
-    # إضافات لأمراض أخرى مشابهة...
 
-    if st.button("تنبأ"):
+    # Add more disease input conditions here (e.g., Heart Disease, Lung Cancer)
+
+    if st.button("Predict"):
         pred = model.predict(data)[0]
         proba = model.predict_proba(data)[0]
-        st.success(f"التنبؤ: {'إيجابي' if pred else 'سلبي'}")
+        st.success(f"Prediction: {'Positive' if pred else 'Negative'}")
         fig, ax = plt.subplots()
         ax.barh(model.classes_, proba)
+        ax.set_xlabel("Probability")
         st.pyplot(fig)
-
