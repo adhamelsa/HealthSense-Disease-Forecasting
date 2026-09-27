@@ -126,9 +126,9 @@ HealthSense-Disease-Forecasting/
 
 - **Hassan Anees** – Project Coordinator, DL & RL, Visualization  
   LinkedIn: https://www.linkedin.com/in/hassananees
-- **Adham [Last Name]** – Data Engineering & ML Training  
+- **Adham  ُElsayed** – Data Engineering & ML Training  
   LinkedIn: https://www.linkedin.com/in/adham_profile
-- **Kirols [Last Name]** – Backend & Frontend Integration, Streamlit UI  
+- **Kirols ** – Backend & Frontend Integration, Streamlit UI  
   LinkedIn: https://www.linkedin.com/in/kirols_profile
 
 Feel free to connect with us on LinkedIn for any questions or collaboration! 🌐
